@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "creativecut",
+	"version": "${version}",
+	"name": "Creative Cut",
+	"description": "Adds slab, stair, and wall variants of creative-only blocks.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Creative-Cut#readme",
+		"issues": "https://github.com/haykam821/Creative-Cut/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.creativecut.Main"
+		]
+	},
+	"license": "MIT",
+	"icon": "assets/creativecut/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
