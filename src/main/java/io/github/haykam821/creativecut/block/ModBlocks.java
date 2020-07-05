@@ -12,7 +12,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public enum ModBlocks {
-	BEDROCK_SLAB("bedrock_slab", new SlabBlock(FabricBlockSettings.copy(Blocks.BEDROCK)), ItemGroup.BUILDING_BLOCKS);
+	BEDROCK_SLAB("bedrock_slab", new SlabBlock(FabricBlockSettings.copy(Blocks.BEDROCK)), ItemGroup.BUILDING_BLOCKS),
+	BEDROCK_STAIRS("bedrock_stairs", new BedrockStairsBlock(), ItemGroup.BUILDING_BLOCKS);
 
 	public Block block;
 	public Item item;
